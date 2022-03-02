@@ -49,12 +49,12 @@
   color: white;
 }
 
-.btn {
+.button1 {
   background-color: #9c3857;
   transition: 0.3s ease-in-out;
 }
 
-.btn:hover {
+.button1:hover {
   background-color: #1e0354;
   color: white;
 }
@@ -101,6 +101,72 @@
   margin: 20px 0;
 }
 
+#services {
+  background-color: #1e0354;
+  min-height: 600px;
+}
+
+.card {
+  background-color: #1e0354;
+  border: 0px;
+}
+
+.card-title {
+  border-bottom: 3px solid white;
+}
+
+.button2 {
+  background-color: #fff;
+  color: #1e0354;
+  transition: 0.3s ease-in-out;
+}
+
+.button2:hover {
+  background-color: #9c3857;
+  color: white;
+}
+
+#contact-us {
+  background-color: #9c3857;
+}
+
+.contact-header,
+.paragraph {
+  color: white;
+}
+
+.contact-header {
+  font-weight: bolder;
+}
+
+.paragraph {
+  font-size: 12px;
+}
+
+.form-control {
+  background-color: #9c3857;
+  color: white;
+}
+
+#form-control:checked {
+  background-color: #9c3857;
+  color: white;
+}
+
+.form-control::placeholder {
+  color: white;
+}
+
+.button3 {
+  background-color: white;
+  color: #9c3857;
+  transition: 0.3s ease-in-out;
+}
+
+.button3:hover {
+  background-color: #1e0354;
+  color: #fff;
+}
 @media only screen and (max-width: 768px) {
   .container-about-us {
     flex-direction: column;
