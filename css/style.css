@@ -1,3 +1,7 @@
+body {
+  height: 100000px;
+}
+
 .navbar {
   background-color: #1e0354;
 }
@@ -32,4 +36,32 @@
 .nav-link:hover::after {
   width: 100%;
   left: 0;
+}
+
+section {
+  height: 100vh;
+}
+
+.jumbotron {
+  min-height: 600px;
+  background-image: url("https://media.istockphoto.com/photos/portrait-of-emotional-woman-playing-drums-in-studio-drummer-rock-picture-id684852818?b=1&k=20&m=684852818&s=170667a&w=0&h=tKFBaqwVMco0YU-he3rck2wzd1VfhA3XwgBJaQxZGDQ=");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.display-4,
+.lead,
+.btn {
+  color: white;
+}
+
+.btn {
+  background-color: #9c3857;
+  transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #1e0354;
+  color: white;
 }
