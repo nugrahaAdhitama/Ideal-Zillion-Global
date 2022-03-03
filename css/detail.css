@@ -1,0 +1,86 @@
+body {
+  background-color: #1e0354;
+  color: white;
+}
+
+.navbar {
+  background-color: #1e0354;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+  letter-spacing: 0.15em;
+  margin-right: 15px;
+}
+
+.nav-link::after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #9c3857;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.card {
+  background-color: #1e0354;
+  width: 500px;
+  border: 0px;
+}
+
+.card-img-top {
+  width: 100%;
+}
+
+.name {
+  font-size: 15pt;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 25pt;
+  line-height: 35px;
+  margin-bottom: 50px;
+}
+
+.text {
+  font-size: 11pt;
+  line-height: 30px;
+  padding-bottom: 15px;
+}
+
+.btn {
+  color: white;
+}
+
+.button1 {
+  background-color: #9c3857;
+  transition: 0.3s ease-in-out;
+}
+
+.button1:hover {
+  background-color: white;
+  color: #1e0354;
+}
