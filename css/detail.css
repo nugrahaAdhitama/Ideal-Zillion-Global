@@ -95,3 +95,57 @@ body {
   background-color: #1e0354;
   border: 0px;
 }
+
+.lead {
+  font-size: 15pt;
+  font-weight: bolder;
+  line-height: 35px;
+  margin-bottom: 10px;
+}
+
+#contact-us {
+  background-color: #9c3857;
+}
+
+.contact-header,
+.paragraph {
+  color: white;
+}
+
+.contact-header {
+  font-weight: bolder;
+}
+
+.paragraph {
+  font-size: 12px;
+}
+
+.form-control {
+  background-color: #9c3857;
+  color: white;
+}
+
+#form-control:checked {
+  background-color: #9c3857;
+  color: white;
+}
+
+.form-control::placeholder {
+  color: white;
+}
+
+.button3 {
+  background-color: white;
+  color: #9c3857;
+  transition: 0.3s ease-in-out;
+}
+
+.button3:hover {
+  background-color: #1e0354;
+  color: #fff;
+}
+
+#services .container {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
