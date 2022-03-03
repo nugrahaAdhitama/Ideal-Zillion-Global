@@ -1,0 +1,128 @@
+body {
+  background-color: #1e0354;
+}
+
+.navbar {
+  background-color: #1e0354;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+  letter-spacing: 0.15em;
+  margin-right: 15px;
+}
+
+.nav-link::after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #9c3857;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: #1e0354;
+}
+
+.input-group-text {
+  background-color: #1e0354;
+  color: white;
+}
+
+.booking {
+  background-color: #1e0354;
+  color: white;
+}
+
+.booking:checked {
+  background-color: #1e0354;
+  color: white;
+}
+
+.booking::placeholder {
+  color: white;
+}
+
+.form-select {
+  background-color: #1e0354;
+  color: white;
+}
+
+option {
+  background-color: white;
+  color: #1e0354;
+}
+
+.button4 {
+  background-color: white;
+  color: #1e0354;
+  width: 100%;
+  transition: 0.5s ease-in-out;
+}
+
+.button4:hover {
+  background-color: #9c3857;
+  color: white;
+}
+
+#contact-us {
+  background-color: #9c3857;
+}
+
+.contact-header,
+.paragraph {
+  color: white;
+}
+
+.contact-header {
+  font-weight: bolder;
+}
+
+.paragraph {
+  font-size: 12px;
+}
+
+.footer {
+  background-color: #9c3857;
+  color: white;
+}
+
+#footer:checked {
+  background-color: #9c3857;
+  color: white;
+}
+
+.footer::placeholder {
+  color: white;
+}
+
+.button3 {
+  background-color: white;
+  color: #9c3857;
+  transition: 0.3s ease-in-out;
+}
+
+.button3:hover {
+  background-color: #1e0354;
+  color: #fff;
+}
