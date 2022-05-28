@@ -45,18 +45,29 @@ body {
 }
 
 .input-group-text {
-  background-color: #1e0354;
+  background-color: #2e0580;
   color: white;
+}
+
+.card {
+  background-color: #1e0354;
+  margin: 1em;
+  color: white;
+  padding: 2em;
+  border-radius: 30px;
+  border: none;
+  outline: none;
 }
 
 .booking {
-  background-color: #1e0354;
+  border: 1px solid white;
+  outline: none;
+  background: transparent;
+  background-color: #2e0580;
   color: white;
-}
-
-.booking:checked {
-  background-color: #1e0354;
-  color: white;
+  font-family: inherit;
+  font-size: 105%;
+  width: calc(100% - 100px);
 }
 
 .booking::placeholder {
@@ -76,8 +87,8 @@ option {
 .button4 {
   background-color: white;
   color: #1e0354;
-  width: 100%;
-  transition: 0.5s ease-in-out;
+  width: 85%;
+  transition: 0.3s ease-in-out;
 }
 
 .button4:hover {
